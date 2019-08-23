@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1047FE0726A9A83FCF5E3E4E /* libPods-RYProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D2997E2FCCF279D0E1C7AE /* libPods-RYProject.a */; };
 		9C4D900A230F84B000B34FC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D9009230F84B000B34FC7 /* AppDelegate.m */; };
 		9C4D900D230F84B000B34FC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D900C230F84B000B34FC7 /* ViewController.m */; };
 		9C4D9010230F84B000B34FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4D900E230F84B000B34FC7 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32D2997E2FCCF279D0E1C7AE /* libPods-RYProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEE73508B01CC6FF9612772 /* Pods-RYProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYProject.debug.xcconfig"; path = "Target Support Files/Pods-RYProject/Pods-RYProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9C4D9005230F84B000B34FC7 /* RYProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4D9008230F84B000B34FC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C4D9009230F84B000B34FC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		9C4D9028230F84B300B34FC7 /* RYProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4D902C230F84B300B34FC7 /* RYProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYProjectUITests.m; sourceTree = "<group>"; };
 		9C4D902E230F84B300B34FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC132655C032C552EA34C5CE /* Pods-RYProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYProject.release.xcconfig"; path = "Target Support Files/Pods-RYProject/Pods-RYProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1047FE0726A9A83FCF5E3E4E /* libPods-RYProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11CF4A4E574F596E57F56378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DEE73508B01CC6FF9612772 /* Pods-RYProject.debug.xcconfig */,
+				BC132655C032C552EA34C5CE /* Pods-RYProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C4D8FFC230F84B000B34FC7 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +101,7 @@
 				9C4D9020230F84B200B34FC7 /* RYProjectTests */,
 				9C4D902B230F84B300B34FC7 /* RYProjectUITests */,
 				9C4D9006230F84B000B34FC7 /* Products */,
+				11CF4A4E574F596E57F56378 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +118,9 @@
 		9C4D9007230F84B000B34FC7 /* RYProject */ = {
 			isa = PBXGroup;
 			children = (
-				9C4D903F230FBAE900B34FC7 /* Class */,
 				9C4D903E230FBA1E00B34FC7 /* AppDelegate */,
+				9C4D903F230FBAE900B34FC7 /* Class */,
+				9C4D9045230FBC8100B34FC7 /* Resource */,
 				9C4D900B230F84B000B34FC7 /* ViewController.h */,
 				9C4D900C230F84B000B34FC7 /* ViewController.m */,
 				9C4D900E230F84B000B34FC7 /* Main.storyboard */,
@@ -136,6 +153,7 @@
 		9C4D903B230FB96C00B34FC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32D2997E2FCCF279D0E1C7AE /* libPods-RYProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,11 +170,11 @@
 		9C4D903F230FBAE900B34FC7 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				9C4D9044230FBB7000B34FC7 /* Vendors */,
 				9C4D9040230FBB0200B34FC7 /* General */,
 				9C4D9041230FBB1500B34FC7 /* Helpers */,
 				9C4D9042230FBB2900B34FC7 /* Macro */,
 				9C4D9043230FBB4B00B34FC7 /* Sections */,
+				9C4D9044230FBB7000B34FC7 /* Vendors */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -196,6 +214,13 @@
 			path = Vendors;
 			sourceTree = "<group>";
 		};
+		9C4D9045230FBC8100B34FC7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C4D9031230F84B300B34FC7 /* Build configuration list for PBXNativeTarget "RYProject" */;
 			buildPhases = (
+				3D3C2D3FF3F5C103B053EAA5 /* [CP] Check Pods Manifest.lock */,
 				9C4D9001230F84B000B34FC7 /* Sources */,
 				9C4D9002230F84B000B34FC7 /* Frameworks */,
 				9C4D9003230F84B000B34FC7 /* Resources */,
@@ -320,6 +346,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3C2D3FF3F5C103B053EAA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C4D9001230F84B000B34FC7 /* Sources */ = {
@@ -497,6 +548,7 @@
 		};
 		9C4D9032230F84B300B34FC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEE73508B01CC6FF9612772 /* Pods-RYProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +565,7 @@
 		};
 		9C4D9033230F84B300B34FC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC132655C032C552EA34C5CE /* Pods-RYProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
