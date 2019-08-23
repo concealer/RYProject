@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1047FE0726A9A83FCF5E3E4E /* libPods-RYProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D2997E2FCCF279D0E1C7AE /* libPods-RYProject.a */; };
+		9C22D579230FCC340027692C /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22D578230FCC340027692C /* NetWorkHelper.m */; };
 		9C4D900A230F84B000B34FC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D9009230F84B000B34FC7 /* AppDelegate.m */; };
 		9C4D900D230F84B000B34FC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D900C230F84B000B34FC7 /* ViewController.m */; };
 		9C4D9010230F84B000B34FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4D900E230F84B000B34FC7 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		32D2997E2FCCF279D0E1C7AE /* libPods-RYProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEE73508B01CC6FF9612772 /* Pods-RYProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYProject.debug.xcconfig"; path = "Target Support Files/Pods-RYProject/Pods-RYProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9C22D577230FCC340027692C /* NetWorkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		9C22D578230FCC340027692C /* NetWorkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
 		9C4D9005230F84B000B34FC7 /* RYProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4D9008230F84B000B34FC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C4D9009230F84B000B34FC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		9C4D9028230F84B300B34FC7 /* RYProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4D902C230F84B300B34FC7 /* RYProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYProjectUITests.m; sourceTree = "<group>"; };
 		9C4D902E230F84B300B34FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4D9047230FCAA600B34FC7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BC132655C032C552EA34C5CE /* Pods-RYProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYProject.release.xcconfig"; path = "Target Support Files/Pods-RYProject/Pods-RYProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +93,6 @@
 				5DEE73508B01CC6FF9612772 /* Pods-RYProject.debug.xcconfig */,
 				BC132655C032C552EA34C5CE /* Pods-RYProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +131,7 @@
 				9C4D9013230F84B200B34FC7 /* LaunchScreen.storyboard */,
 				9C4D9016230F84B200B34FC7 /* Info.plist */,
 				9C4D9017230F84B200B34FC7 /* main.m */,
+				9C4D9047230FCAA600B34FC7 /* PrefixHeader.pch */,
 			);
 			path = RYProject;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 		9C4D9041230FBB1500B34FC7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9C4D9046230FCA5500B34FC7 /* NetHelper */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -219,6 +224,15 @@
 			children = (
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		9C4D9046230FCA5500B34FC7 /* NetHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9C22D577230FCC340027692C /* NetWorkHelper.h */,
+				9C22D578230FCC340027692C /* NetWorkHelper.m */,
+			);
+			path = NetHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C22D579230FCC340027692C /* NetWorkHelper.m in Sources */,
 				9C4D900D230F84B000B34FC7 /* ViewController.m in Sources */,
 				9C4D9018230F84B200B34FC7 /* main.m in Sources */,
 				9C4D900A230F84B000B34FC7 /* AppDelegate.m in Sources */,
