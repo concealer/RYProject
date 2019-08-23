@@ -81,6 +81,7 @@
 		9C4D8FFC230F84B000B34FC7 = {
 			isa = PBXGroup;
 			children = (
+				9C4D903B230FB96C00B34FC7 /* Frameworks */,
 				9C4D9007230F84B000B34FC7 /* RYProject */,
 				9C4D9020230F84B200B34FC7 /* RYProjectTests */,
 				9C4D902B230F84B300B34FC7 /* RYProjectUITests */,
@@ -101,8 +102,8 @@
 		9C4D9007230F84B000B34FC7 /* RYProject */ = {
 			isa = PBXGroup;
 			children = (
-				9C4D9008230F84B000B34FC7 /* AppDelegate.h */,
-				9C4D9009230F84B000B34FC7 /* AppDelegate.m */,
+				9C4D903F230FBAE900B34FC7 /* Class */,
+				9C4D903E230FBA1E00B34FC7 /* AppDelegate */,
 				9C4D900B230F84B000B34FC7 /* ViewController.h */,
 				9C4D900C230F84B000B34FC7 /* ViewController.m */,
 				9C4D900E230F84B000B34FC7 /* Main.storyboard */,
@@ -130,6 +131,69 @@
 				9C4D902E230F84B300B34FC7 /* Info.plist */,
 			);
 			path = RYProjectUITests;
+			sourceTree = "<group>";
+		};
+		9C4D903B230FB96C00B34FC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C4D903E230FBA1E00B34FC7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9C4D9008230F84B000B34FC7 /* AppDelegate.h */,
+				9C4D9009230F84B000B34FC7 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9C4D903F230FBAE900B34FC7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9C4D9044230FBB7000B34FC7 /* Vendors */,
+				9C4D9040230FBB0200B34FC7 /* General */,
+				9C4D9041230FBB1500B34FC7 /* Helpers */,
+				9C4D9042230FBB2900B34FC7 /* Macro */,
+				9C4D9043230FBB4B00B34FC7 /* Sections */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9C4D9040230FBB0200B34FC7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9C4D9041230FBB1500B34FC7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9C4D9042230FBB2900B34FC7 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		9C4D9043230FBB4B00B34FC7 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		9C4D9044230FBB7000B34FC7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
